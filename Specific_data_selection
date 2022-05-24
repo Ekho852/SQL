@@ -1,0 +1,7 @@
+-- Returning data (names) from data by specifying output
+
+Select NAME
+From DB
+Where Job != 'Manager'
+And Job != 'Supervisor'
+And Sal >= 2000;
