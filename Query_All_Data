@@ -1,3 +1,4 @@
 -- Query to view all data from source "DB"
+
 SELECT *
-FROM DB
+FROM DB;
