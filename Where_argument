@@ -1,4 +1,5 @@
 -- Query with 'Where' argument Note: words require single quotation marks ('') while numbers do not
+
 Select *
 From DB
 Where Job = 'Analyst';
