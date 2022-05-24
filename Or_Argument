@@ -1,0 +1,6 @@
+-- 'Or' argument allows query to be selective of multpiple variables only
+
+Select *
+From DB
+Where Job = 'Analyst'
+Or Job = 'Manager';
