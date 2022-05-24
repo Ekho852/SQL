@@ -1,0 +1,6 @@
+-- using 'and' function allows for greater selectivity of data output
+Select *
+From DB
+Where JOB != 'Analyst'
+and SAL > 1000
+and SAL < 5000
